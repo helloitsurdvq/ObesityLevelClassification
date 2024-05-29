@@ -14,7 +14,7 @@ docs/                       # project report and presentation
 app.py                      # Gradio app
 ml.ipynb                    # main jupyter notebooks
 README.md 
-requirement.txt             # requirement libraries
+requirements.txt             # requirement libraries
 ```
 
 ## Dataset
