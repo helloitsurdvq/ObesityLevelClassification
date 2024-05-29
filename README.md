@@ -7,25 +7,32 @@ Obesity is known as a multifaceted condition influenced by a variety of factors 
 ## Project Organization
 
 ```
-app/                        # model deployment
+checkpoint/                 # model deployment
 data/                       # raw data
 docs/                       # project report and presentation
-src/                        # jupyter notebooks for the pipeline
--- .ipynb                   # all trained models for evaluation
 .gitignore
+app.py                      # Gradio app
+ml.ipynb                    # main jupyter notebooks
 README.md 
 requirement.txt             # requirement libraries
 ```
 
 ## Dataset
-Link to the dataset: https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk-classifyregressorcluster
+Link to the dataset (we combined 2 datasets for our project): 
+- [link1](https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk-classifyregressorcluster)
+- [link2](https://www.kaggle.com/competitions/playground-series-s4e2)
 
 ## Setup
-Change the working directory to the project root, then install required packages and libraries
+Change the working directory to the project root, change the path of the project properly and then install required packages and libraries.
 ```
     pip install -r requirements.txt
 ```
+Another way to run our notebook, here is our kaggle link: 
+[link](https://www.kaggle.com/code/longnguyenchi/ml-project-obesity-prediction-new?scriptVersionId=180279079). Please run the **version 15**.
 
+- Here is the weights file of trained models: [Drive link](...), please put them into checkpoint folder for running the app.
+
+- To run our application, please run the **app.py** file locally (using Gradio).
 ## Collaborators
 <table>
     <tbody>
