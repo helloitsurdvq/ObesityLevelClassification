@@ -27,8 +27,8 @@ Change the working directory to the project root, change the path of the project
 ```
     pip install -r requirements.txt
 ```
-Another way to run our notebook, here is our kaggle link: 
-[link](https://www.kaggle.com/code/longnguyenchi/ml-project-obesity-prediction-new?scriptVersionId=180279079). Please run the **version 15**.
+Another way to run our notebook is to use our kaggle link (Please run the **version 15**): 
+[link](https://www.kaggle.com/code/longnguyenchi/ml-project-obesity-prediction-new?scriptVersionId=180279079). 
 
 - Here is the weights file of trained models: [Drive link](https://drive.google.com/drive/folders/1worhoKR1yqKxL1WmZLZVbEBJaqYJAzIw?usp=sharing), please put them into `checkpoint` folder for running the app.
 
