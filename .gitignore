@@ -132,3 +132,4 @@ template.ipynb
 *.png
 checkpoint/*.joblib
 Source code/
+docs/*.pdf
