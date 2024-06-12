@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 template.ipynb
+docs/*.pdf
 *.png
 checkpoint/*.joblib
 Source code/
-docs/*.pdf
